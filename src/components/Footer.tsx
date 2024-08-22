@@ -7,8 +7,11 @@ const Footer = () => {
             Gopalaas.com
           </span>
           <span className="text-white font-bold tracking-tight flex gap-4">
-            <span>Privacy Policy</span>
-            <span>Terms of Service</span>
+            <aside>
+              <span>Privacy Policy</span><br />
+              <span>Terms of Service</span>
+              <p>Copyright © {new Date().getFullYear()} - All right reserved by Gopalaas Pvt Ltd</p>
+            </aside>
           </span>
         </div>
       </div> 

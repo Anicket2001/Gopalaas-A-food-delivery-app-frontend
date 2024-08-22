@@ -46,19 +46,6 @@ import {
               </FormItem>
             )}
           />
-          {/* <FormField
-            control={control}
-            name="country"
-            render={({ field }) => (
-              <FormItem className="flex-1">
-                <FormLabel>Country</FormLabel>
-                <FormControl>
-                  <Input {...field} className="bg-white" />
-                </FormControl>
-                <FormMessage />
-              </FormItem>
-            )}
-          /> */}
         </div>
   
         <FormField
